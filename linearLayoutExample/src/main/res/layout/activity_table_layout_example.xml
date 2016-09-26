@@ -15,8 +15,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/tableLayout1"
-        android:shrinkColumns="1"
-        android:stretchColumns="2">
+        android:shrinkColumns="0"
+        android:stretchColumns="1,2">
         <Button
             android:text="占整行的按钮"
             android:layout_width="match_parent"

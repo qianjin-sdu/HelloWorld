@@ -20,7 +20,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".TableLayoutExample"></activity>
+        <activity android:name=".TableLayoutExample" />
+        <activity android:name=".FrameLayoutExample"></activity>
     </application>
 
 </manifest>
