@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/HelloWorld.iml" filepath="$PROJECT_DIR$/HelloWorld.iml" />
-      <module fileurl="file://$PROJECT_DIR$/linearLayoutExample/app.iml" filepath="$PROJECT_DIR$/linearLayoutExample/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/linearLayoutExample/linearLayoutExample.iml" filepath="$PROJECT_DIR$/linearLayoutExample/linearLayoutExample.iml" />
     </modules>
   </component>
