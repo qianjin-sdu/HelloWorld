@@ -21,7 +21,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".TableLayoutExample" />
-        <activity android:name=".FrameLayoutExample"></activity>
+        <activity android:name=".FrameLayoutExample" />
+        <activity android:name=".RaletiveLayoutExample"></activity>
     </application>
 
 </manifest>
