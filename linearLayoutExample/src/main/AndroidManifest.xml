@@ -12,17 +12,19 @@
 
         <!-- 定义Android应用的一个组件：Activity，该Activity的类为MainActivity -->
         <activity android:name=".MainActivity">
-            <intent-filter>
 
+        </activity>
+        <activity android:name=".TableLayoutExample" />
+        <activity android:name=".FrameLayoutExample" />
+        <activity android:name=".RaletiveLayoutExample" />
+        <activity android:name=".GridLayoutExample">
+            <intent-filter>
                 <!-- 指定该Activity是程序的入口 -->
                 <action android:name="android.intent.action.MAIN" />
                 <!-- 指定加载该应用时运行该Activity -->
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".TableLayoutExample" />
-        <activity android:name=".FrameLayoutExample" />
-        <activity android:name=".RaletiveLayoutExample"></activity>
     </application>
 
 </manifest>

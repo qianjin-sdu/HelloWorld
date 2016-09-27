@@ -10,4 +10,53 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="sde.sdu.edu.helloworld.RaletiveLayoutExample">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="195dp"
+        android:id="@+id/textView1"
+        android:layout_centerInParent="true"
+        android:height="30dp"
+        android:width="30dp"
+        android:background="@android:color/background_dark" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_above="@+id/textView1"
+        android:layout_alignLeft="@+id/textView1"
+        android:height="30dp"
+        android:width="30dp"
+        android:background="@android:color/holo_blue_bright" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/textView1"
+        android:layout_alignLeft="@+id/textView1"
+        android:height="30dp"
+        android:width="30dp"
+        android:background="@android:color/holo_blue_bright" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:layout_toLeftOf="@+id/textView1"
+        android:layout_alignTop="@+id/textView1"
+        android:height="30dp"
+        android:width="30dp"
+        android:background="@android:color/holo_blue_bright" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:layout_toRightOf="@+id/textView1"
+        android:layout_alignTop="@+id/textView1"
+        android:height="30dp"
+        android:width="30dp"
+        android:background="@android:color/holo_blue_bright" />
 </RelativeLayout>
